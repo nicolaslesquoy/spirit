@@ -1,0 +1,12 @@
+[submodule "external/SDL"]
+	path = external/SDL
+	url = git@github.com:nicolaslesquoy/SDL.git
+[submodule "external/SDL_mixer"]
+	path = external/SDL_mixer
+	url = git@github.com:nicolaslesquoy/SDL_mixer.git
+[submodule "external/SDL_ttf"]
+	path = external/SDL_ttf
+	url = git@github.com:nicolaslesquoy/SDL_ttf.git
+[submodule "external/SDL_image"]
+	path = external/SDL_image
+	url = git@github.com:nicolaslesquoy/SDL_image.git
