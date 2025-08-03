@@ -1,0 +1,65 @@
+/* Colors chosen to be compatible with the Dracula theme: https://en.wikipedia.org/wiki/Dracula_(color_scheme) */
+
+Screen {
+        background: #282a36;
+    }
+
+    Static {
+        color: #fff;
+        margin-bottom: 0;
+    }
+
+    Input {
+        width: 50%;
+        margin-bottom: 0;
+        border: none;
+        background: #44475a;
+        color: #fff;
+    }
+    
+    Input:focus {
+        border: none;
+        background: #44475a;
+    }
+
+    Horizontal {
+        align: left middle;
+        height: auto;
+    }
+
+    Checkbox {
+        width: auto;
+        height: auto;
+        margin-left: 2;
+        background: #44475a;
+        border: #44475a
+    }
+
+    ListView {
+        border: none;
+        background: #f8f8f2;
+        margin-bottom: 0;
+    }
+
+    ListItem {
+        padding: 0;
+        margin: 0;
+        border: none;
+        background: #f8f8f2;
+    }
+
+    ListItem:hover {
+        background: #f8f8f2;
+    }
+
+    ListItem > Label {
+        padding: 0;
+        margin: 0;
+        color: #44475a;
+        text-style: bold;
+    }
+
+    .selected {
+        background: #6272a4;
+        color: #44475a;
+    }

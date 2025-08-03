@@ -61,5 +61,15 @@ obj/
 # Compiled Static libraries
 *.lai
 
+### Python ###
+
+# Environments 
+.venv/
+
+# Misc.
+__pycache__/
+.ruff_cache/
+
 ### Misc. ####
 build/
+references/
